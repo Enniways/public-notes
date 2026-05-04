@@ -1,17 +1,18 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Enni's Notes
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: de-DE
   baseUrl: notes.enrika.net
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - 0 - Inbox
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
