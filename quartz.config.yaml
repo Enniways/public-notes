@@ -75,7 +75,7 @@ plugins:
       enableCheckbox: true
     order: 30
   - source: github:quartz-community/github-flavored-markdown
-    enabled: true
+    enabled: false
     order: 40
   - source: github:quartz-community/table-of-contents
     enabled: true
@@ -86,7 +86,7 @@ plugins:
       markdownLinkResolution: shortest
     order: 60
   - source: github:quartz-community/description
-    enabled: true
+    enabled: false
     order: 70
   - source: github:quartz-community/latex
     enabled: true
@@ -257,13 +257,6 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: true
-    options:
-      theme: adrenaline
 layout:
   groups:
     toolbar:
