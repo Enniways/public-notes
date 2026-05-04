@@ -153,6 +153,7 @@ plugins:
     layout:
       position: left
       priority: 50
+    options: {}
   - source: github:quartz-community/graph
     enabled: true
     layout:
@@ -218,7 +219,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
