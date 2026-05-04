@@ -12,7 +12,6 @@ configuration:
     - private
     - templates
     - .obsidian
-    - 0 - Inbox
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -57,22 +56,13 @@ plugins:
       theme:
         light: github-light
         dark: github-dark
+
       keepBackground: false
     order: 20
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
-      comments: true
-      highlight: true
-      wikilinks: true
-      callouts: true
-      mermaid: true
-      parseTags: true
-      parseArrows: true
-      parseBlockReferences: true
       enableInHtmlEmbed: false
-      enableYouTubeEmbed: true
-      enableVideoEmbed: true
       enableCheckbox: true
     order: 30
   - source: github:quartz-community/github-flavored-markdown
@@ -98,7 +88,7 @@ plugins:
     enabled: false
     order: 85
   - source: github:quartz-community/hard-line-breaks
-    enabled: true
+    enabled: false
     order: 90
   - source: github:quartz-community/ox-hugo
     enabled: false
@@ -140,13 +130,12 @@ plugins:
     enabled: true
   - source: github:quartz-community/cname
     enabled: true
-    options: {}
   - source: github:quartz-community/canvas-page
     enabled: true
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
-    enabled: false
+    enabled: true
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
@@ -154,13 +143,11 @@ plugins:
     layout:
       position: left
       priority: 50
-    options: {}
   - source: github:quartz-community/graph
     enabled: true
     layout:
       position: right
       priority: 10
-    options: {}
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -200,9 +187,8 @@ plugins:
       position: left
       priority: 30
       group: toolbar
-    options: {}
   - source: github:quartz-community/reader-mode
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 35
@@ -222,13 +208,13 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: false
+    enabled: true
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
-    enabled: true
+    enabled: false
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -238,7 +224,7 @@ plugins:
       priority: 25
       display: mobile-only
   - source: github:quartz-community/bases-page
-    enabled: false
+    enabled: true
     options: {}
     order: 50
   - source: github:quartz-community/note-properties
@@ -251,20 +237,13 @@ plugins:
         - aliases
       excludedProperties: []
       hidePropertiesView: false
-      delimiters: ---
+      delimiters: "---"
       language: yaml
     order: 5
     layout:
       position: beforeBody
       priority: 15
       display: all
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: true
-    options:
-      theme: adrenaline
 layout:
   groups:
     toolbar:

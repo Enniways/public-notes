@@ -53,15 +53,45 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
     return [resource]
   }
 
-  for (const component of allComponents) {
-    const { css, beforeDOMLoaded, afterDOMLoaded } = component
-    const normalizedCss = normalizeResource(css)
-    const normalizedBeforeDOMLoaded = normalizeResource(beforeDOMLoaded)
-    const normalizedAfterDOMLoaded = normalizeResource(afterDOMLoaded)
+//  for (const component of allComponents) {
+//    const { css, beforeDOMLoaded, afterDOMLoaded } = component
+//    const normalizedCss = normalizeResource(css)
+//    const normalizedBeforeDOMLoaded = normalizeResource(beforeDOMLoaded)
+//    const normalizedAfterDOMLoaded = normalizeResource(afterDOMLoaded)
+//
+//    normalizedCss.forEach((c) => componentResources.css.add(c))
+//    normalizedBeforeDOMLoaded.forEach((b) => componentResources.beforeDOMLoaded.add(b))
+//    normalizedAfterDOMLoaded.forEach((a) => componentResources.afterDOMLoaded.add(a))
+//  }
 
-    normalizedCss.forEach((c) => componentResources.css.add(c))
-    normalizedBeforeDOMLoaded.forEach((b) => componentResources.beforeDOMLoaded.add(b))
-    normalizedAfterDOMLoaded.forEach((a) => componentResources.afterDOMLoaded.add(a))
+  for (const component of allComponents) {  
+    // Add this debug check  
+    if (!component) {  
+      console.error("Found undefined component")  
+        
+      // Check which emitter is returning undefined  
+      for (const emitter of ctx.cfg.plugins.emitters) {  
+        const components = emitter.getQuartzComponents?.(ctx) ?? []  
+        for (const c of components) {  
+          if (!c) console.error(`Undefined component from emitter: ${emitter.name}`)  
+        }  
+      }  
+        
+      // Check registry for undefined components  
+      for (const [name, reg] of componentRegistry.getAll()) {  
+        if (!reg.component) console.error(`Undefined component from registry: ${name}`)  
+      }  
+      continue  
+    }  
+      
+    const { css, beforeDOMLoaded, afterDOMLoaded } = component  
+    const normalizedCss = normalizeResource(css)  
+    const normalizedBeforeDOMLoaded = normalizeResource(beforeDOMLoaded)  
+    const normalizedAfterDOMLoaded = normalizeResource(afterDOMLoaded)  
+    
+    normalizedCss.forEach((c) => componentResources.css.add(c))  
+    normalizedBeforeDOMLoaded.forEach((b) => componentResources.beforeDOMLoaded.add(b))  
+    normalizedAfterDOMLoaded.forEach((a) => componentResources.afterDOMLoaded.add(a))  
   }
 
   return {
