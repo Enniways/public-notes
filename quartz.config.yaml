@@ -260,7 +260,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: border
+      theme: adrenaline
 layout:
   groups:
     toolbar:
