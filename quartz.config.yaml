@@ -223,7 +223,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: false
+    enabled: true
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
@@ -245,12 +245,11 @@ plugins:
   - source: github:quartz-community/note-properties
     enabled: true
     options:
-      includeAll: true
+      includeAll: false
       includedProperties: description,tags,aliases,extracted-from
       hidePropertiesView: false
       delimiters: ---
       language: yaml
-      excludedProperties: published
     order: 5
     layout:
       position: beforeBody
