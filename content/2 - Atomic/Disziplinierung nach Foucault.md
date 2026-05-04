@@ -1,10 +1,10 @@
 ---
 publish: true
 aliases:
-  - Strafen nach Foucault
+  - strafen nach foucault
 created: 2026-05-03
-modified: 2026-05-04T21:36:07.740+02:00
-published: 2026-05-04T21:36:07.740+02:00
+modified: 2026-05-05T01:38:11.305+02:00
+published: 2026-05-05T01:38:11.305+02:00
 tags:
   - SoSe26
   - LAS/KGG
