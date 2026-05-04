@@ -80,6 +80,7 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50
+    options: {}
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -103,10 +104,10 @@ plugins:
     enabled: false
     order: 91
   - source: github:quartz-community/roam
-    enabled: true
+    enabled: false
     order: 92
   - source: github:quartz-community/remove-draft
-    enabled: true
+    enabled: false
   - source: github:quartz-community/explicit-publish
     enabled: false
   - source: github:quartz-community/unlisted-pages
@@ -114,7 +115,7 @@ plugins:
     options: {}
     order: 45
   - source: github:quartz-community/encrypted-pages
-    enabled: true
+    enabled: false
     options:
       iterations: 600000
       passwordField: password
@@ -126,6 +127,7 @@ plugins:
       position: afterBody
       priority: 50
       display: all
+    options: {}
   - source: github:quartz-community/alias-redirects
     enabled: true
   - source: github:quartz-community/content-index
@@ -184,7 +186,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: github:quartz-community/tag-list
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -244,11 +246,8 @@ plugins:
     enabled: true
     options:
       includeAll: false
-      includedProperties:
-        - description
-        - tags
-        - aliases
-      excludedProperties: []
+      includedProperties: description,aliases,extracted-from
+      excludedProperties: tags
       hidePropertiesView: false
       delimiters: ---
       language: yaml
