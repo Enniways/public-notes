@@ -103,7 +103,7 @@ plugins:
     enabled: false
     order: 91
   - source: github:quartz-community/roam
-    enabled: false
+    enabled: true
     order: 92
   - source: github:quartz-community/remove-draft
     enabled: true
@@ -145,7 +145,7 @@ plugins:
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
-    enabled: false
+    enabled: true
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
