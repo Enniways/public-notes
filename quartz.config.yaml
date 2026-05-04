@@ -85,7 +85,7 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
-      prettyLinks: "true"
+      prettyLinks: true
     order: 60
   - source: github:quartz-community/description
     enabled: false
