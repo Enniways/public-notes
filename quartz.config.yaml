@@ -106,7 +106,6 @@ plugins:
   - source: github:quartz-community/roam
     enabled: false
     order: 92
-    options: {}
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -141,6 +140,7 @@ plugins:
     enabled: true
   - source: github:quartz-community/cname
     enabled: true
+    options: {}
   - source: github:quartz-community/canvas-page
     enabled: true
   - source: github:quartz-community/content-page
@@ -160,6 +160,7 @@ plugins:
     layout:
       position: right
       priority: 10
+    options: {}
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -199,8 +200,9 @@ plugins:
       position: left
       priority: 30
       group: toolbar
+    options: {}
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
@@ -226,7 +228,7 @@ plugins:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -236,7 +238,7 @@ plugins:
       priority: 25
       display: mobile-only
   - source: github:quartz-community/bases-page
-    enabled: true
+    enabled: false
     options: {}
     order: 50
   - source: github:quartz-community/note-properties
