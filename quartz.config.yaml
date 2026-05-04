@@ -62,7 +62,7 @@ plugins:
     enabled: true
     options:
       comments: true
-      highlight: true
+      highlight: false
       wikilinks: true
       callouts: true
       mermaid: true
@@ -85,6 +85,7 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
+      prettyLinks: "true"
     order: 60
   - source: github:quartz-community/description
     enabled: false
