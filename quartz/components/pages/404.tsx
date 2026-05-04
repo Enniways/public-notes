@@ -1,55 +1,55 @@
-import { i18n } from "../../i18n"
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
-
-const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
-  // If baseUrl contains a pathname after the domain, use this as the home link
-  const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
-  const baseDir = url.pathname
-
-  return (
-    <article class="popover-hint">
-      <h1>404</h1>
-      <p>{i18n(cfg.locale).pages.error.notFound}</p>
-      <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-          if (typeof fetchData !== "undefined") {
-            fetchData.then(function(index) {
-              var basePath = document.body.dataset.basepath || "";
-              if (basePath.length > 1 && basePath.endsWith("/")) {
-                basePath = basePath.slice(0, -1);
-              }
-              var pathname = window.location.pathname;
-              var hasBasePrefix = basePath.length > 1 && pathname.startsWith(basePath);
-              if (hasBasePrefix) {
-                pathname = pathname.slice(basePath.length);
-              }
-              if (pathname.startsWith("/")) {
-                pathname = pathname.slice(1);
-              }
-              if (pathname.endsWith("/")) {
-                pathname = pathname.slice(0, -1);
-              }
-              if (pathname.endsWith(".html")) {
-                pathname = pathname.slice(0, -5);
-              }
-              if (pathname.endsWith("/index")) {
-                pathname = pathname.slice(0, -6);
-              }
-              var lowered = pathname.toLowerCase();
-              if (lowered !== pathname && index[lowered] != null) {
-                var prefix = hasBasePrefix ? basePath : "";
-                var target = prefix + (prefix.endsWith("/") ? "" : "/") + lowered;
-                window.location.replace(target);
-              }
-            });
-          }
-          `,
-        }}
-      />
-    </article>
-  )
-}
-
+import { i18n } from "../../i18n"  
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"  
+  
+const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {  
+  // Generate random Pokemon ID (1-1010 for current Pokemon count)  
+  const pokemonId = Math.floor(Math.random() * 1010) + 1  
+    
+  return (  
+    <article class="popover-hint" style="text-align: center; padding: 2rem;">  
+      <h1>404</h1>  
+      <p>This page seems to have wandered off into the tall grass!</p>  
+        
+      <div id="pokemon-container" style="margin: 2rem 0;">  
+        <img   
+          src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`}  
+          alt="Pokemon"  
+          style="width: 96px; height: 96px; image-rendering: pixelated;"  
+        />  
+        <p style="margin-top: 0.5rem; font-family: monospace;">  
+          #{pokemonId}  
+        </p>  
+      </div>  
+        
+      <a href="/" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--secondary); color: var(--dark); text-decoration: none; border-radius: 4px;">  
+        ← Go Home  
+      </a>  
+        
+      <script  
+        dangerouslySetInnerHTML={{  
+          __html: `  
+            // Show a new Pokemon on each navigation  
+            document.addEventListener('nav', () => {  
+              const container = document.getElementById('pokemon-container');  
+              if (container) {  
+                const newId = Math.floor(Math.random() * 1010) + 1;  
+                container.innerHTML = \`  
+                  <img   
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/\${newId}.png"  
+                    alt="Pokemon"  
+                    style="width: 96px; height: 96px; image-rendering: pixelated;"  
+                  />  
+                  <p style="margin-top: 0.5rem; font-family: monospace;">  
+                    #\${newId}  
+                  </p>  
+                \`;  
+              }  
+            });  
+          `,  
+        }}  
+      />  
+    </article>  
+  )  
+}  
+  
 export default (() => NotFound) satisfies QuartzComponentConstructor
