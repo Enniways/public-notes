@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: de-DE
+  locale: en-US
   baseUrl: notes.enrika.net
   ignorePatterns:
     - private
