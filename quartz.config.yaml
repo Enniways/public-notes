@@ -248,9 +248,7 @@ plugins:
     enabled: true
     options:
       includeAll: false
-      includedProperties: 
-        - aliases
-        - extracted-from
+      includedProperties: aliases,extracted-from,slides
       hidePropertiesView: false
       delimiters: ---
       language: yaml
