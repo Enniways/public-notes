@@ -146,7 +146,6 @@ plugins:
       width: 1200  
       height: 630  
       excludeRoot: true
-      imageStructure: contentImage
   - source: github:quartz-community/cname
     enabled: true
     options: {}
