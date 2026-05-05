@@ -139,6 +139,8 @@ plugins:
       enableRSS: true
   - source: github:quartz-community/favicon
     enabled: true
+    options:  
+      source: static/favicon.ico
   - source: github:quartz-community/og-image
     enabled: true
   - source: github:quartz-community/cname
