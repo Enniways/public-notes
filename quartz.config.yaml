@@ -85,8 +85,7 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
-      prettyLinks: true
-      disableBrokenWikilinks: true
+      prettyLinks: "true"
     order: 60
   - source: github:quartz-community/description
     enabled: false
@@ -137,15 +136,10 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
-  - source: github:quartz-community/favicon  
-    enabled: true  
-  - source: github:quartz-community/og-image
+  - source: github:quartz-community/favicon
     enabled: true
-    options:  
-      colorScheme: darkMode  # Use dark mode for social images  
-      width: 1200  
-      height: 630  
-      excludeRoot: true
+  - source: github:quartz-community/og-image
+    enabled: false
   - source: github:quartz-community/cname
     enabled: true
     options: {}
