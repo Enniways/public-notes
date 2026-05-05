@@ -5,8 +5,9 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
   return (  
     <article class="popover-hint" style="text-align: center; padding: 2rem;">  
       <h1>404</h1>  
-      <p>This page doesn't exist or isn't available. This Pokémon is cool too though!!! :3</p>  
-        
+      <p>This page doesn't exist or isn't available. This Pokémon is here though :3</p>  
+      <p>(Try reloading the page as well)</p>  
+
       <div id="pokemon-container" style="margin: 2rem 0;">  
         <img     
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"  
