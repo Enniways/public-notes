@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-05-03
-modified: 2026-05-04T21:35:44.687+02:00
-published: 2026-05-04T21:35:44.687+02:00
+modified: 2026-06-17T17:31:33.170+02:00
+published: 2026-06-17T17:31:33.170+02:00
 tags:
   - SoSe26
   - LAS/KGG
@@ -14,6 +14,16 @@ tags:
 
 Unterscheidung zu [[Karl Marx|Marx]] und zur [[Frankfurter Kritische Theorie|Kritischen Theorie]]
 
+## Historisch
+
+- [[Souveräne Macht]] (_Vormoderne_): Macht des Herrschers über Recht/Leben/Tod („Sterben  machen“) – sichtbar, punktuell → [[Rückkehr der Souveränitätsmacht]]
+- [[Disziplinierung nach Foucault|Disziplinarmacht]] (_seit 18./19. Jh._): Kontrolle von Individuen durch Institutionen (Schule,  Militär, Gefängnis) – „Normierung“ und „Dressur“ von Körpern
+- [[Biopower|Biomacht]] (_seit 18./19. Jh._): Regulierung von Bevölkerungen als Kollektive (Geburten,  Sterblichkeit, Gesundheit, Risiko) – „Leben machen und optimieren“
+
+**Verschiebung der Machtlogik**: von Recht über Territorium → hin zu Verwaltung, Optimierung und Steuerung von Leben
+
+Kernthese: Moderne Macht ist **nicht nur repressiv, sondern produktiv** – sie erzeugt Subjekte, Körper und Bevölkerungen als steuerbare Größen → [[Produktive und Repressive Macht]]
+
 ## Problematik
 
 > [!error] [Foucault, 2003, p. 303](zotero://open-pdf/library/items/Z8WA42ML?page=12\&annotation=7VX5F7H5)
@@ -24,6 +34,8 @@ Unterscheidung zu [[Karl Marx|Marx]] und zur [[Frankfurter Kritische Theorie|Kri
 ## Machtformen
 
 ### 2 Hauptformen der Macht **über Leben**
+
+[[Biopolitik|Souveräne Macht]] vs. [[Disziplinierung nach Foucault|Disziplinarmacht]]
 
 > [!quote] [Gehring, 2020, p. 266](zotero://open-pdf/library/items/SVB8HJIR?page=1\&annotation=3VBCQNXW)
 > dem _17. Jh_. entstehenden Machtprozeduren der Disziplinen, eine »**politische Anatomie des Körpers**«, und einen um die Mitte des _18. Jh.s_ sich herausbildenden Pol einer »[[Biopolitik|Bio-Politik]] der Bevölkerung«,

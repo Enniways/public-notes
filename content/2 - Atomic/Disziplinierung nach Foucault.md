@@ -2,15 +2,16 @@
 publish: true
 aliases:
   - strafen nach foucault
+  - Disziplinarmacht
 created: 2026-05-03
-modified: 2026-05-05T01:38:11.305+02:00
-published: 2026-05-05T01:38:11.305+02:00
+modified: 2026-05-14T23:36:55.270+02:00
+published: 2026-05-14T23:36:55.270+02:00
 tags:
   - SoSe26
   - LAS/KGG
 ---
 
-→ [[Macht nach Foucault]]
+→ [[Macht nach Foucault]] → Wirkt individualisierend im Gegensatz zur [[Biopolitik]]
 Aus [[Michel Foucault|Foucault]]'s Buch "Überwachen und Strafen"
 
 _In der Vergangenheit_: Immer **eine Strafe gegen den Körper**: Enthaupten, Verbrennen, Brandmarken etc.
@@ -38,3 +39,9 @@ Erfindung des [[Panoptikum]]s. Es wird versucht zu resozialiseren, also zu [[Nor
 > zweite Form des **Produktivmachens** von »Leben« entsteht als wohlfahrtsstaatliche **Fortpflanzungspolitik** und im Medium der für die Persönlichkeitsentwicklung für entscheidend erklärten ›**Sexualität**‹ (eine Errungenschaft des 19. Jh.s).
 
 → mehr dazu in: [[Der Wille zum Wissen Buch|Der Wille zum Wissen]] (1976)
+
+## Wirkung in Social Media
+
+- wirkt durch ständige Überwachung, Algorithmen und soziale Normierung (Panoptismus-Prinzip)
+- **erzieht Nutzer:innen zu Konformität, Selbstoptimierung und Datenteilung**
+- Nicht nur repressiv! Es spendet auch Identitätsmodelle und Trends mit dem man sich identifiziert → Clean Girl, [[Tradwife]] (eigentlich related, basierend auf [[Whiteness]])

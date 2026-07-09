@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-05-03
-modified: 2026-05-04T21:36:45.413+02:00
-published: 2026-05-04T21:36:45.413+02:00
+modified: 2026-06-23T09:45:36.502+02:00
+published: 2026-06-23T09:45:36.502+02:00
 tags:
   - SoSe26
   - LAS/KGG
@@ -17,7 +17,7 @@ Foucault sieht es beispielhaft für die moderne Zwangsgesellschaft. Man übt vor
 > \[...] es dient zur Besserung von Sträflingen, aber auch \[...] zur Belehrung von Schülern, zur Überwachung von Wahnsinnigen, zur Beaufsichtigung von Arbeitern, zur Arbeitsbeschaffung für \[...] Müßiggänger.
 > – Foucault
 
-> Derjenige, welcher der Sichtbarkeit unterworfen ist und dies weiß, **übernimmt die Zwangsmittel der Macht und spiel sie gegen sich selber aus; er internalisiert das Machtverhältnis**, in welchem er gleichzeitig beide Rollen spielt; er wird **zum Prinzip seiner eigenen Unterwerfung**.
+> Derjenige, welcher der Sichtbarkeit unterworfen ist und dies weiß, **übernimmt die Zwangsmittel der Macht und spielt sie gegen sich selber aus; er internalisiert das Machtverhältnis**, in welchem er gleichzeitig beide Rollen spielt; er wird **zum Prinzip seiner eigenen Unterwerfung**.
 
 aus dem Buch: [[Überwachen und Strafen Buch|Überwachen und Strafen]]
 related: [[Social Credit Score]]

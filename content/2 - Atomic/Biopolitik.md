@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-15
-modified: 2026-05-04T21:35:51.078+02:00
-published: 2026-05-04T21:35:51.078+02:00
+modified: 2026-06-14T18:51:00.387+02:00
+published: 2026-06-14T18:51:00.387+02:00
 tags:
   - LAS/KGG
   - SoSe26
@@ -18,8 +18,13 @@ Wo wollen wir damit hin (= unser «Warum»)?
 
 _ZIEL_: Erarbeitung eines **Begriffs von Politik, der mit dem Menschen als einem zugleich biologischen und sozialen Wesen** kalkuliert.
 
-- _Unterziel 1_: Nachvollzug eines Machtbegriffs als Analysekategorie, die als historisch geworden zeigt, was als  natürlich erscheint, inkl. der materiellen Substrate (Körper, Lust etc.).
+- _Unterziel 1_: Nachvollzug eines Machtbegriffs als Analysekategorie, die als historisch geworden zeigt, was als natürlich erscheint, inkl. der materiellen Substrate (Körper, Lust etc.).
 - _Unterziel 2_: Nachvollzug und Diskussion der parallelen Serien  «Körper-Organismus-Disziplin-Institution» und «Bevölkerungbiologische Prozesse-Regulierungsmechanismen-Staat».
+
+Warum sich damit beschäftigen?
+
+- Frage des Menschlichen Enhancement. Übergang von Therapie zu Leistungssteigerung zu Ersetzung (Körperlich, Kognitiv, Reproduktiv)
+- Millieu Theorie für [[Klimawandel]]
 
 ## Unterscheidung zu [[Biopower|Biomacht]]
 
@@ -49,6 +54,28 @@ _(nach Eva Horn / Hannes Bergthaller) Anthropozän: zur Einführung_
 
 „Am Beginn des 21. Jahrhunderts markiert das Wort ‚Biomedizin‘ jene **wechselseitige Durchdringung von Natur und Wissen**, mit der das organische Leben in den Horizont menschlicher Verfügbarkeit gerückt und damit zum **politischen Gegenstand geworden ist**. In diesem Sinne sind moderne Gesellschaften zu **BioSocieties** geworden, deren Mitglieder im **Namen kollektiver und individueller Gesundheitsimperative zuvörderst an sich selbst arbeiten**.“
 
+## Unterscheidung zur [[Disziplinierung nach Foucault|Disziplinarmacht]]
+
+Wirkt als modernes Gegenteil der individualisierenden [[Disziplinierung nach Foucault|Disziplinarmacht]]
+
+**Instrument**: Regulatorische Verwaltung, Statistische Planung
+
 ## etc
 
 Biopolitik ist die Weise, in der Machtverhältnisse «ihre Hand auf Körper legen»
+
+## Anwendung
+
+- AIDS-Prävention
+- Bekämpfung des Bevölkerungswachstums
+- Asyl-Poltik
+  etc.
+
+## Im Anthropozän
+
+> [!quote] Anthropozän zur Einführung - Horn, Bergthaller
+>
+> - „nicht mehr nur um den Reproduktionserfolg einzelner biologischer Arten“
+> - „den Menschen von einem Parasiten des  Erdsystems in ihren Symbionten verwandeln“
+> - „Anerkennung von artenübergreifenden  Verwandtschafts- und Abhängigkeitsbeziehungen“
+> - Ziel: „Überlebensfähigkeit ganzer symbiotischer Netzwerke“ (160f.)

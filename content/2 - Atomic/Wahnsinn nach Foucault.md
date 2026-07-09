@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-05-03
-modified: 2026-05-04T21:36:56.006+02:00
-published: 2026-05-04T21:36:56.006+02:00
+modified: 2026-05-14T23:35:20.865+02:00
+published: 2026-05-14T23:35:20.865+02:00
 tags:
   - SoSe26
   - self-researched
@@ -38,14 +38,24 @@ aus Wahninn und Gesellschaft ([[Michel Foucault|Foucault]]'s Doktorarbeit). Eine
 
 → Hoofnarr; Narr im Theater
 
-### vor Moderne
+### (_1656_) Wahnsinnige werden eingesperrt
 
-nach dem Dekret von 1656 vom [[Luis XIV|Sonnenkönig]]: Alle Irren und Landstreicher sollen in Hospizen (ehemalige Leprahäuser) eingesperrt werden.
+nach dem Dekret von 1656 vom [[Luis XIV|Sonnenkönig]]: Alle Irren und Landstreicher sollen in Hospizen (ehemalige Leprahäuser) eingesperrt werden. Das Hôpital général gegründet und gibt es die ‚große Gefangenschaft‘ der Armen;
 
 > Die Lepra verschwindet, die Leprakranken sind fast vergessen, aber die Strukturen bleiben. **Oft kann man an denselben Orten zwei, drei, Jahrhunderte später die gleichen Formeln des Ausschlusses in verblüffender Ähnlichkeit wiederfinden.** Arme, Landstreicher \[...] und verwirrte Köpfe spielen die Rolle, die einst der Leprakranke innehatte \[...].
 > – Wahnsinn und Gesellschaft
 
 Massengefängnisse und Irrenhäuser entstehen (→ [[Kliniken nach Foucault]]?)
+
+### (_1793_) Wahnsinnige werden "befreit"
+
+![](https://www.meisterdrucke.com/kunstwerke/1260px/Charles_Barbant_-_The_Stones_were_running_up_illustration_for_a_Breton_tale_from_Legendes_et_Recit_-_%28MeisterDrucke-319143%29.jpg)
+Pinel befreit die Kranken aus der Bicêtre im Jahr 1793.
+Narrativ: Pinel befreit die Wahnsinnigen von ihren Ketten in dem er sie therapiert.
+→ [[Französische Revolution]]
+
+> Zwischen diesen beiden besonderen und symmetrischen Ereignissen geschieht etwas, dessen Ambiguität die **Verfasser der Geschichte der Medizin in Bedrängnis** gebracht hat. Die einen sehen darin die blinde Repression innerhalb eines **absolutistischen Regimes** und die anderen eine **fortschreitende Entdeckung des Wahnsinns** in seiner **positiven Wahrheit** durch die Wissenschaft \[...].»
+> – Wahnsinn und Gesellschaft
 
 ### Moderne
 

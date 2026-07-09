@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-05-03
-modified: 2026-05-04T23:46:26.513+02:00
-published: 2026-05-04T23:46:26.513+02:00
+modified: 2026-05-05T11:01:59.866+02:00
+published: 2026-05-05T11:01:59.866+02:00
 tags:
   - SoSe26
   - LAS/KGG
@@ -17,8 +17,7 @@ tags:
 > **Macht heißt**, den Körper materiell zu formen und so das Subjekt als seelisch-leibliche Einheit zu gestalten;
 > **Körper sein heißt**, jenseits der Reflexionsschwelle als körperlich-seelisches Subjekt in den und _durch die Technologien der Macht zu entstehen_
 
-> [!info] [Foucault, 2003, p. 302](zotero://open-pdf/library/items/Z8WA42ML?page=11\&annotation=9CM5RIYN)
-> Meine Suche geht dahin, dass ich zeigen möchte, wie die **Machtverhältnisse materiell in die eigentliche Dichte der Körper übergehen** können, **ohne dass sie durch die Vorstellung der Subjekte übertragen werden müssen**. Wenn die Macht den Körper trifft, so **nicht**, weil sie zunächst im Bewusstsein der Leute verinnerlicht wurde.
+## [[Subjektivierung#Bei Foucault]]
 
 ## Köper anders sehen
 

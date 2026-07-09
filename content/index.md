@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-05-04T20:46:18.864+02:00
-modified: 2026-05-05T00:14:00.431+02:00
-published: 2026-05-05T00:14:00.431+02:00
+modified: 2026-05-05T02:29:35.794+02:00
+published: 2026-05-05T02:29:35.794+02:00
 ---
 
 Welcome to my uni notes. :3

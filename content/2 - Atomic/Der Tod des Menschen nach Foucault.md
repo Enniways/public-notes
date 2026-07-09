@@ -1,8 +1,10 @@
 ---
 publish: true
+aliases:
+  - Der Mensch verschwindet nach Foucault
 created: 2026-05-03
-modified: 2026-05-04T21:36:38.345+02:00
-published: 2026-05-04T21:36:38.345+02:00
+modified: 2026-06-03T00:58:37.312+02:00
+published: 2026-06-03T00:58:37.312+02:00
 tags:
   - SoSe26
   - self-researched
